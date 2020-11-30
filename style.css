@@ -1,0 +1,107 @@
+body {
+	background-color: #f1ffff; /* f1ffff  */
+	color: #213e3b;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	
+}
+
+h1, h2 {
+	text-align: center;
+}
+h1 { 
+	color: #3b6978;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: Nunito;
+    padding-left: 30px;
+    font-weight: bold;
+
+}
+	
+h2 {
+	color: #41aea9;
+    letter-spacing: 4px;
+    font-size: 26px;
+    text-transform: uppercase;
+
+    
+}
+a {
+	text-decoration: none;
+	color: #213e3b;
+	font-weight: bold;
+	font-size: 35px
+}
+a:hover {
+	color: #41aea9;
+	font-size: 40px;
+}
+
+/* Custom design avec les class */
+
+#container {
+	width: 1500px;
+	margin: 40px auto;
+}
+
+@media (max-width: 1160px) {
+	#container {
+		width: 1000px;
+	}
+}
+
+@media (max-width: 860px) {
+	#container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 540px) {
+	#container {
+		width: 400px;
+	}
+}
+
+
+
+
+.card-verte {
+	background: #e8ffff;
+    padding: 10px 20px; /* haut/bas gauche/droite */
+    margin: 50px 0px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    
+
+ }
+#photo-ronde {
+	border-radius: 50%;
+	width: 250px;
+
+}
+#btn-LinkedIn {
+	padding: 0px 15px;
+	border-radius: 20px;
+	border: 4px solid #41aea9;
+	box-shadow: 10px 15px 30px rgba(0,0,0,0.15);
+
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+}
+.list-inline i:hover {
+	font-size: 50px;
+
+}
